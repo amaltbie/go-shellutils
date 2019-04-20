@@ -48,6 +48,7 @@ clean:
 	rm -rf .build
 
 clobber: clean
+	rm -f .docker
 	rm -rf .gopath
 	rm -rf .cache
 
